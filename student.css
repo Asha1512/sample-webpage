@@ -1,0 +1,47 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(251, 241, 221);
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1{
+    text-align:center;
+}
+.form-box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+}
+
+.student-card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-left: 5px solid steelblue;
+}
